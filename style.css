@@ -67,10 +67,11 @@ display: flex;
      }
      .row{
       display: flex;
-      gap: 10px;  
+      gap: 10px; 
+      width: 50%; 
      }
      .col-25{
-        width: 180px;
+        width: 80%;
         min-height: 680px;
         border: 1px solid black;
      }
