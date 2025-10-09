@@ -6,8 +6,9 @@
 
 .header{
 display: flex;
-flex-direction: row-reverse;
-    background-color: blue;
+align-items: center ;
+justify-content: center;    
+background-color: blue;
     width: 100%;
     min-height: 70px;
     
