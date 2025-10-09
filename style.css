@@ -132,11 +132,10 @@ img {
 
 .col-60 {
    display: flex;
-   width: 45%;
    height: 450px;
    border: 1px solid black;
    margin-top: 100px;
-   
+   padding-right: 20px;
 }
 
 .col-45 {
