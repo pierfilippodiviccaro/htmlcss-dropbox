@@ -11,18 +11,23 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
     <nav class="header">
-        <div class="logo"><img src="img/logo-small.png" alt=""></div>
-        <div class="left-row">
-            <ul>
-                <li>miao</li>
-                <li>miao</li>
-                <li>miao</li>
-            </ul>
-
+        <div class="nav-container">
+            <div class="logo"><img src="img/logo-small.png" alt=""></div>
+            <div class="mao">
+                <ul>
+                    <li>miao</li>
+                    <li>miao</li>
+                    <li>miao</li>
+                </ul>
+                </div>
+    
         </div>
     </nav>
     <div class="container">
@@ -38,7 +43,7 @@
                     similique.</p>
                 <a href="" class="prova">inizia la tua prova gratuita</a>
                 <p class="annullare">puoi annullare in qualsiasi momento</p>
-                <p class="mark">&checkmark;</p>
+                <p class="mark"><i class="fa-solid fa-arrow-down"></i></p>
             </div>
             <div class="col-40"><img src="img/jumbo.png" alt=""></div>
         </div>
@@ -47,89 +52,107 @@
     </div>
 
     <div class="container-main">
-        <div class="bigger-square">
-            <div class="mini-header">&checkmark;Team</div>
-            <h2 class="titolo">enterprise</h2>
-            <h3 class="contatti">contatta l'ufficio vendite per il prezzo</h3>
-            <p class="paragrafetto">
-                masdnashasdhoasuhasdufasodifuaosidufgaosdiufgaosidufgaoidufgasodifugasdoiufgasdofiuagdfiouadgf</p>
-            <a href="" class="ufficio-vendite">contatta l'ufficio vebndite</a>
-
-        </div>
-        <div class="main-title">
-            <h2>trova il piano giusto che fa per te</h2>
-            <div class="piano">
-                <p>&checkmark;piano mensile</p>
-                <p> &checkmark;piano annuale</p>
+        <div class="titolo-principale">
+            <div class="main-title">
+                <h2>trova il piano giusto che fa per te</h2>
+                <div class="pianola">
+                    <div>
+                        <input id="mensile" type="radio" name="piano mensile" />
+                        <label for="mensile">piano mensile</label>
+                    </div>
+                    <div>
+                        <input id="mensile" type="radio" name="piano annuale">
+                        <label for="mensile">piano annuale</label>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-25">
-                <div class="mini-header">&checkmark;singolo</div>
-                <h2>professional</h2>
-                <p class="prezzo">120€</p>
-                <p class="mese">/Mese</p>
-                <ul class="info">
-                    <li>lorem ma con lorem che più lorem non si lorem</li>
-                    <li>30000 GB di spazio al mese con una nutria aggiunta </li>
-                    <li> tantissimi gattini che fanno sempre e solamente ma in maniera assolutakentdsifdosifd miao</li>
-                </ul>
-                <a href="" class="prova-2">inizia la tua prova gratuita</a>
-                <div class="acquista-ora">
-                    <p>oppure</p>
-                    <a href="">acquista ora </a>
+        <div class="pani">
+            <div class="row">
+                <div class="col-25">
+                    <div class="mini-header"><i class="fa-solid fa-user"></i>singolo</div>
+                    <h2>professional</h2>
+                    <p class="prezzo">120€</p>
+                    <p class="mese">/Mese</p>
+                    <ul class="info">
+                        <li>lorem ma con lorem che più lorem non si lorem</li>
+                        <li>30000 GB di spazio al mese con una nutria aggiunta </li>
+                        <li> tantissimi gattini che fanno sempre e solamente ma in maniera assolutakentdsifdosifd miao
+                        </li>
+                    </ul>
+                    <a href="" class="prova-2">inizia la tua prova gratuita</a>
+                    <div class="acquista-ora">
+                        <p>oppure</p>
+                        <a href="">acquista ora </a>
+                    </div>
+                    <h2>punti salienti del piano</h2>
+                    <ul class="salienti">
+                        <li>andare in bagno più velocemente </li>
+                        <li>vedere fino a 30000km di distanza</li>
+                        <li>parlare il canese con il tuo animale da compagnia</li>
+                    </ul>
                 </div>
-                <h2>punti salienti del piano</h2>
-                <ul class="salienti">
-                    <li>andare in bagno più velocemente </li>
-                    <li>vedere fino a 30000km di distanza</li>
-                    <li>parlare il canese con il tuo animale da compagnia</li>
-                </ul>
-            </div>
-            <div class="col-25">
-                <div class="mini-header">&checkmark;team</div>
-                <h2>professional</h2>
-                <p class="prezzo">120€</p>
-                <p class="mese">/Mese</p>
-                <ul class="info">
-                    <li>lorem ma con lorem che più lorem non si lorem</li>
-                    <li>30000 GB di spazio al mese con una nutria aggiunta </li>
-                    <li> tantissimi gattini che fanno sempre e solamente ma in maniera assolutakentdsifdosifd miao</li>
-                </ul>
-                <a href="" class="prova-2">inizia la tua prova gratuita</a>
-                <div class="acquista-ora">
-                    <p>oppure</p>
-                    <a href="">acquista ora </a>
+                <div class="col-25">
+                    <div class="mini-header"><i class="fa-solid fa-users"></i> team</div>
+                    <h2>professional</h2>
+                    <p class="prezzo">120€</p>
+                    <p class="mese">/Mese</p>
+                    <ul class="info">
+                        <li>lorem ma con lorem che più lorem non si lorem</li>
+                        <li>30000 GB di spazio al mese con una nutria aggiunta </li>
+                        <li> tantissimi gattini che fanno sempre e solamente ma in maniera assolutakentdsifdosifd miao
+                        </li>
+                    </ul>
+                    <a href="" class="prova-2">inizia la tua prova gratuita</a>
+                    <div class="acquista-ora">
+                        <p>oppure</p>
+                        <a href="">acquista ora </a>
+                    </div>
+                    <h2>punti salienti del piano</h2>
+                    <ul class="salienti">
+                        <li>andare in bagno più velocemente </li>
+                        <li>vedere fino a 30000km di distanza</li>
+                        <li>parlare il canese con il tuo animale da compagnia</li>
+                    </ul>
+
                 </div>
-                <h2>punti salienti del piano</h2>
-                <ul class="salienti">
-                    <li>andare in bagno più velocemente </li>
-                    <li>vedere fino a 30000km di distanza</li>
-                    <li>parlare il canese con il tuo animale da compagnia</li>
-                </ul>
+                <div class="col-25">
+                    <div class="mini-header"><i class="fa-solid fa-building"></i>azienda</div>
+                    <h2>professional</h2>
+                    <p class="prezzo">120€</p>
+                    <p class="mese">/Mese</p>
+                    <ul class="info">
+                        <li>lorem ma con lorem che più lorem non si lorem</li>
+                        <li>30000 GB di spazio al mese con una nutria aggiunta </li>
+                        <li> tantissimi gattini che fanno sempre e solamente ma in maniera assolutakentdsifdosifd miao
+                        </li>
+                    </ul>
+                    <a href="" class="prova-2">inizia la tua prova gratuita</a>
+                    <div class="acquista-ora">
+                        <p>oppure</p>
+                        <a href="">acquista ora </a>
+                    </div>
+
+                    <h2>punti salienti del piano</h2>
+                    <ul class="salienti">
+                        <li>andare in bagno più velocemente </li>
+                        <li>vedere fino a 30000km di distanza</li>
+                        <li>parlare il canese con il tuo animale da compagnia</li>
+                    </ul>
+                </div>
 
             </div>
-            <div class="col-25">
-                <div class="mini-header">&checkmark;azienda</div>
-                <h2>professional</h2>
-                <p class="prezzo">120€</p>
-                <p class="mese">/Mese</p>
-                <ul class="info">
-                    <li>lorem ma con lorem che più lorem non si lorem</li>
-                    <li>30000 GB di spazio al mese con una nutria aggiunta </li>
-                    <li> tantissimi gattini che fanno sempre e solamente ma in maniera assolutakentdsifdosifd miao</li>
-                </ul>
-                <a href="" class="prova-2">inizia la tua prova gratuita</a>
-                <div class="acquista-ora">
-                    <p>oppure</p>
-                    <a href="">acquista ora </a>
+        </div>
+        <div class="container-square">
+            <div class="bigger-square">
+                <div class="mini-header"><i class="fa-solid fa-building"></i>Team</div>
+                <h2 class="enterprise">enterprise</h2>
+                <p class="lorem">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus minus, animi
+                    voluptatibus quas quos debitis! Earum officia et sed, nostrum consectetur fugit quis dolore
+                    sapiente! Voluptatibus sapiente numquam atque ad.</p>
+                <div class="mini">
+                    <a class="button" href="">contatta l'ufficio vendite</a>
                 </div>
-                <h2>punti salienti del piano</h2>
-                <ul class="salienti">
-                    <li>andare in bagno più velocemente </li>
-                    <li>vedere fino a 30000km di distanza</li>
-                    <li>parlare il canese con il tuo animale da compagnia</li>
-                </ul>
             </div>
         </div>
     </div>
@@ -203,7 +226,7 @@
     <div class="third-container">
         <div class="container-2 flex">
             <div class="col-10">
-                <h2>miaomiao</h2>
+                <h2>Dropbox</h2>
                 <ul class="lista">
                     <li>miao</li>
                     <li>miao</li>
@@ -213,43 +236,43 @@
                 </ul>
             </div>
             <div class="col-10">
-                <h2></h2>
+                <h2>Prodotti</h2>
                 <ul class="lista">
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
+                    <li>miao</li>
+                    <li>miao</li>
+                    <li>miao</li>
+                    <li>miao</li>
+                    <li>miao</li>
                 </ul>
             </div>
             <div class="col-10">
-                <h2></h2>
+                <h2>azienda</h2>
                 <ul class="lista">
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
+                    <li>miao</li>
+                    <li>miao</li>
+                    <li>miao</li>
+                    <li>miao</li>
+                    <li>miao</li>
                 </ul>
             </div>
             <div class="col-10">
-                <h2></h2>
+                <h2>Supporto</h2>
                 <ul class="lista">
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
+                    <li>miao</li>
+                    <li>mioa</li>
+                    <li>mioa</li>
+                    <li>miao</li>
+                    <li>miao</li>
                 </ul>
             </div>
             <div class="col-10">
-                <h2></h2>
+                <h2>Community</h2>
                 <ul class="lista">
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
+                    <li>miao</li>
+                    <li>miao</li>
+                    <li>miao</li>
+                    <li>miao</li>
+                    <li>miao</li>
 
                 </ul>
             </div>
