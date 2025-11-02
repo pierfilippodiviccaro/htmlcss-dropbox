@@ -162,7 +162,7 @@ img {
 }
 
 .third-container {
-   background-color: rgb(221, 25, 123);
+   background-color: rgb(43, 40, 40);
 }
 
 
@@ -183,10 +183,10 @@ img {
 .col-10 {
    width: 60%;
    height: 350px;
-   border: 1px solid black;
+   color: white;
 }
 
-.footer {}
+
 
 
 
@@ -430,4 +430,7 @@ body{
       }
       .lista > li{
              margin-bottom:27px
+      }
+      .col-10 > h2{
+      margin-top: 10px;
       }
