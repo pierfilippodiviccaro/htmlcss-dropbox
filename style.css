@@ -9,18 +9,22 @@ img {
 }
 
 .header {
-   background-color: blue;
+   background-color: rgb(8, 151, 151);
    width: 100%;
    min-height: 70px;
 
 }
 .nav-container{
-   display: flex;
-   justify-content: flex-start;
-   gap: 20px;
-   align-items: center;
-   
+  display: flex;
+justify-content: space-between;
+align-items: center;
+   height: 100%;
+   width: 100%;
+   padding-top: 20px;  
+   padding-left: 15px;
+   padding-right: 15px;
 }
+
 
 .container {
    width: 100%;
@@ -422,11 +426,12 @@ body{
       padding-top: 30px;
       margin-left: 20px;
    }
-   .mao{
+   .mao ul{
       display: flex;
-      flex-direction: row-reverse;
       list-style: none;
       padding-left: 40px;
+      gap: 20px;
+      padding-right: 10px;
       }
       .lista > li{
              margin-bottom:27px
